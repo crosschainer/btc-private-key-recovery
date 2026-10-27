@@ -1,0 +1,181 @@
+{
+  "python": "3.10.12",
+  "dependencies": {
+    "cryptography": "3.4.8",
+    "z3-solver": "5.3.2.0"
+  },
+  "tests_passed": 97,
+  "suites": [
+    {
+      "method": "bx-seed",
+      "suite": "test_reference.py",
+      "tests": 9,
+      "passed": true
+    },
+    {
+      "method": "armory-feedback",
+      "suite": "test_recover.py",
+      "tests": 8,
+      "passed": true
+    },
+    {
+      "method": "shared",
+      "suite": "test_references.py",
+      "tests": 5,
+      "passed": true
+    },
+    {
+      "method": "small-prng",
+      "suite": "test_recovery.py",
+      "tests": 3,
+      "passed": true
+    },
+    {
+      "method": "xorshift128",
+      "suite": "test_recovery.py",
+      "tests": 3,
+      "passed": true
+    },
+    {
+      "method": "masking-feedback",
+      "suite": "test_feedback.py",
+      "tests": 15,
+      "passed": true
+    },
+    {
+      "method": "mwc1616",
+      "suite": "test_recovery.py",
+      "tests": 9,
+      "passed": true
+    },
+    {
+      "method": "mwc1616/direct",
+      "suite": "test_direct.py",
+      "tests": 9,
+      "passed": true
+    },
+    {
+      "method": "dotnet-random",
+      "suite": "test_screen.py",
+      "tests": 6,
+      "passed": true
+    },
+    {
+      "method": "dotnet-random",
+      "suite": "test_exact.py",
+      "tests": 4,
+      "passed": true
+    },
+    {
+      "method": "dotnet-seed",
+      "suite": "test_recovery.py",
+      "tests": 9,
+      "passed": true
+    },
+    {
+      "method": "bitcoinjs-arc4",
+      "suite": "test_pipeline.py",
+      "tests": 12,
+      "passed": true
+    },
+    {
+      "method": "bitcoinjs-arc4",
+      "suite": "test_recovery.py",
+      "tests": 2,
+      "passed": true
+    },
+    {
+      "method": "bx-seed",
+      "suite": "test_recovery.py",
+      "tests": 3,
+      "passed": true
+    }
+  ],
+  "examples": {
+    "small-prng": {
+      "xorshift_state_recovered": true,
+      "new_keys_verified": 2,
+      "lcg_terminal_states": 1,
+      "python_seed_range": [
+        512,
+        1024
+      ],
+      "matching_python_seeds": [
+        721
+      ]
+    },
+    "xorshift128": {
+      "state_bits_recovered": 128,
+      "new_keys_verified": 2,
+      "independent_contradiction_verified": true
+    },
+    "mwc1616": {
+      "active_state_bits_recovered": 32,
+      "inactive_state_bits_unobserved": 32,
+      "active_state_unique": true,
+      "new_keys_verified": 1
+    },
+    "mwc1616/direct": {
+      "interval": [
+        0,
+        4096
+      ],
+      "states_checked": 4096,
+      "matching_states": 1,
+      "new_keys_verified": 1
+    },
+    "bitcoinjs-arc4": {
+      "state_interval": [
+        1,
+        4
+      ],
+      "states_checked": 3,
+      "matching_states": 1,
+      "new_keys_verified": 1
+    },
+    "bx-seed": {
+      "canonical_state_interval": [
+        1,
+        33
+      ],
+      "states_checked": 32,
+      "matching_states": [
+        19
+      ],
+      "new_keys_verified": 2
+    },
+    "dotnet-random": {
+      "byte_screen": "survives_necessary_screen",
+      "exact_solver": "sat_exact_replay",
+      "unique_generating_state_established": false,
+      "explanation": "A compatible state fits these observations, but it is not uniquely identified."
+    },
+    "dotnet-seed": {
+      "candidate_seed_magnitudes": [
+        2000000000
+      ],
+      "anchor_values_checked": 33554432,
+      "complete_constructor_domain": true,
+      "new_keys_verified": 2
+    },
+    "masking-feedback": {
+      "rules_checked": 34272,
+      "matching_rule": "decimal/full/sha256/big/none/replace/1",
+      "new_keys_verified": 2,
+      "corrupted_observation_rejected": true
+    },
+    "armory-feedback": {
+      "toy_chain_code_bits": 8,
+      "status": "recovered",
+      "matching_chain_codes": [
+        "0x3d"
+      ],
+      "explanation": "This small model demonstrates chain-code recovery; it is not a full-width wallet recovery."
+    },
+    "masked-xpub": {
+      "synthetic_parent_recoveries": 12,
+      "negative_controls": 6
+    }
+  },
+  "scalar_constraint_analysis_passed": true
+}

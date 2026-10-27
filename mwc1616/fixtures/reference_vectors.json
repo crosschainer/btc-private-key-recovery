@@ -1,0 +1,845 @@
+{
+  "provenance": "Synthetic MWC reference vectors evaluated with explicit JavaScript uint32 operations and arithmetic replay.",
+  "vectors": [
+    {
+      "multipliers": [
+        18273,
+        36969
+      ],
+      "initial_states": [
+        1,
+        2
+      ],
+      "outputs": [
+        {
+          "step": 1,
+          "state0": 18273,
+          "state1": 73938,
+          "uint32": 1197547730,
+          "math_random": 0.2788258087821305,
+          "top_byte": 71,
+          "top_16": 18273
+        },
+        {
+          "step": 2,
+          "state0": 333902529,
+          "state1": 310613539,
+          "uint32": 4072773155,
+          "math_random": 0.9482663951348513,
+          "top_byte": 242,
+          "top_16": 62145
+        },
+        {
+          "step": 3,
+          "state0": 1135580679,
+          "state1": 1420908254,
+          "uint32": 2517063390,
+          "math_random": 0.5860494892112911,
+          "top_byte": 150,
+          "top_16": 38407
+        },
+        {
+          "step": 4,
+          "state0": 701828438,
+          "state1": 822138303,
+          "uint32": 223794623,
+          "math_random": 0.052106246119365096,
+          "top_byte": 13,
+          "top_16": 3414
+        },
+        {
+          "step": 5,
+          "state0": 62394731,
+          "state1": 2022919255,
+          "uint32": 292244567,
+          "math_random": 0.06804349063895643,
+          "top_byte": 17,
+          "top_16": 4459
+        },
+        {
+          "step": 6,
+          "state0": 81480259,
+          "state1": 722516034,
+          "uint32": 1245952066,
+          "math_random": 0.29009582148864865,
+          "top_byte": 74,
+          "top_16": 19011
+        },
+        {
+          "step": 7,
+          "state0": 347389246,
+          "state1": 1743838754,
+          "uint32": 3175013922,
+          "math_random": 0.739240535069257,
+          "top_byte": 189,
+          "top_16": 48446
+        },
+        {
+          "step": 8,
+          "state0": 885259058,
+          "state1": 2102305762,
+          "uint32": 4214399970,
+          "math_random": 0.9812414576299489,
+          "top_byte": 251,
+          "top_16": 64306
+        }
+      ]
+    },
+    {
+      "multipliers": [
+        18273,
+        36969
+      ],
+      "initial_states": [
+        4294967295,
+        4294967295
+      ],
+      "outputs": [
+        {
+          "step": 1,
+          "state0": 1197586590,
+          "state1": 2422828950,
+          "uint32": 3097390998,
+          "math_random": 0.7211675397120416,
+          "top_byte": 184,
+          "top_16": 47262
+        },
+        {
+          "step": 2,
+          "state0": 863636799,
+          "state1": 1056093423,
+          "uint32": 222278895,
+          "math_random": 0.051753338193520904,
+          "top_byte": 13,
+          "top_16": 3391
+        },
+        {
+          "step": 3,
+          "state0": 61976921,
+          "state1": 1712383225,
+          "uint32": 2975458553,
+          "math_random": 0.6927779300604016,
+          "top_byte": 177,
+          "top_16": 45401
+        },
+        {
+          "step": 4,
+          "state0": 829613418,
+          "state1": 2167038001,
+          "uint32": 3848953905,
+          "math_random": 0.896154415095225,
+          "top_byte": 229,
+          "top_16": 58730
+        },
+        {
+          "step": 5,
+          "state0": 1073185948,
+          "state1": 910394691,
+          "uint32": 2224850243,
+          "math_random": 0.5180133141111583,
+          "top_byte": 132,
+          "top_16": 33948
+        },
+        {
+          "step": 6,
+          "state0": 620348179,
+          "state1": 1261211326,
+          "uint32": 3272838846,
+          "math_random": 0.7620171750895679,
+          "top_byte": 195,
+          "top_16": 49939
+        },
+        {
+          "step": 7,
+          "state0": 912544812,
+          "state1": 1350940442,
+          "uint32": 1412216602,
+          "math_random": 0.32880730042234063,
+          "top_byte": 84,
+          "top_16": 21548
+        },
+        {
+          "step": 8,
+          "state0": 393760528,
+          "state1": 1732905519,
+          "uint32": 1326451247,
+          "math_random": 0.308838497614488,
+          "top_byte": 79,
+          "top_16": 20240
+        }
+      ]
+    },
+    {
+      "multipliers": [
+        18273,
+        36969
+      ],
+      "initial_states": [
+        2147483648,
+        3735928559
+      ],
+      "outputs": [
+        {
+          "step": 1,
+          "state0": 32768,
+          "state1": 1807064756,
+          "uint32": 2147524276,
+          "math_random": 0.5000094594433904,
+          "top_byte": 128,
+          "top_16": 32768
+        },
+        {
+          "step": 2,
+          "state0": 598769664,
+          "state1": 1502004105,
+          "uint32": 2147533705,
+          "math_random": 0.5000116548035294,
+          "top_byte": 128,
+          "top_16": 32768
+        },
+        {
+          "step": 3,
+          "state0": 598778800,
+          "state1": 1850580151,
+          "uint32": 2746260663,
+          "math_random": 0.6394136378075927,
+          "top_byte": 163,
+          "top_16": 41904
+        },
+        {
+          "step": 4,
+          "state0": 765720928,
+          "state1": 1483187548,
+          "uint32": 4183860572,
+          "math_random": 0.9741309499368072,
+          "top_byte": 249,
+          "top_16": 63840
+        },
+        {
+          "step": 5,
+          "state0": 1166560003,
+          "state1": 1564994339,
+          "uint32": 1258548003,
+          "math_random": 0.29302854160778224,
+          "top_byte": 75,
+          "top_16": 19203
+        },
+        {
+          "step": 6,
+          "state0": 350914219,
+          "state1": 2225372834,
+          "uint32": 2259386018,
+          "math_random": 0.5260543008334935,
+          "top_byte": 134,
+          "top_16": 34475
+        },
+        {
+          "step": 7,
+          "state0": 629967029,
+          "state1": 1198494998,
+          "uint32": 2293601558,
+          "math_random": 0.5340207270346582,
+          "top_byte": 136,
+          "top_16": 34997
+        },
+        {
+          "step": 8,
+          "state0": 639509793,
+          "state1": 1410977141,
+          "uint32": 622972277,
+          "math_random": 0.14504703623242676,
+          "top_byte": 37,
+          "top_16": 9505
+        }
+      ]
+    },
+    {
+      "multipliers": [
+        18273,
+        36969
+      ],
+      "initial_states": [
+        305419896,
+        2596069104
+      ],
+      "outputs": [
+        {
+          "step": 1,
+          "state0": 404495788,
+          "state1": 2109934380,
+          "uint32": 497814316,
+          "math_random": 0.11590642761439085,
+          "top_byte": 29,
+          "top_16": 7596
+        },
+        {
+          "step": 2,
+          "state0": 138807880,
+          "state1": 105763535,
+          "uint32": 172544719,
+          "math_random": 0.04017369798384607,
+          "top_byte": 10,
+          "top_16": 2632
+        },
+        {
+          "step": 3,
+          "state0": 48096654,
+          "state1": 1995107636,
+          "uint32": 3851349300,
+          "math_random": 0.8967121364548802,
+          "top_byte": 229,
+          "top_16": 58766
+        },
+        {
+          "step": 4,
+          "state0": 1073831851,
+          "state1": 2244935998,
+          "uint32": 1605042494,
+          "math_random": 0.3737030769698322,
+          "top_byte": 95,
+          "top_16": 24491
+        },
+        {
+          "step": 5,
+          "state0": 447540428,
+          "state1": 11790397,
+          "uint32": 3972851773,
+          "math_random": 0.9250016354490072,
+          "top_byte": 236,
+          "top_16": 60620
+        },
+        {
+          "step": 6,
+          "state0": 1107716088,
+          "state1": 2197918136,
+          "uint32": 1744343480,
+          "math_random": 0.40613661520183086,
+          "top_byte": 103,
+          "top_16": 26616
+        },
+        {
+          "step": 7,
+          "state0": 486371070,
+          "state1": 1379125113,
+          "uint32": 1862190969,
+          "math_random": 0.4335751219186932,
+          "top_byte": 110,
+          "top_16": 28414
+        },
+        {
+          "step": 8,
+          "state0": 519216443,
+          "state1": 1887843028,
+          "uint32": 2637902548,
+          "math_random": 0.6141845481470227,
+          "top_byte": 157,
+          "top_16": 40251
+        }
+      ]
+    },
+    {
+      "multipliers": [
+        18273,
+        36969
+      ],
+      "initial_states": [
+        0,
+        0
+      ],
+      "outputs": [
+        {
+          "step": 1,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 2,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 3,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 4,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 5,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 6,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 7,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 8,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        }
+      ]
+    },
+    {
+      "multipliers": [
+        18030,
+        36969
+      ],
+      "initial_states": [
+        1,
+        2
+      ],
+      "outputs": [
+        {
+          "step": 1,
+          "state0": 18030,
+          "state1": 73938,
+          "uint32": 1181622482,
+          "math_random": 0.275117923039943,
+          "top_byte": 70,
+          "top_16": 18030
+        },
+        {
+          "step": 2,
+          "state0": 325080900,
+          "state1": 310613539,
+          "uint32": 1464112675,
+          "math_random": 0.34089029650203884,
+          "top_byte": 87,
+          "top_16": 22340
+        },
+        {
+          "step": 3,
+          "state0": 402795160,
+          "state1": 1420908254,
+          "uint32": 714626782,
+          "math_random": 0.16638701362535357,
+          "top_byte": 42,
+          "top_16": 10904
+        },
+        {
+          "step": 4,
+          "state0": 196605266,
+          "state1": 822138303,
+          "uint32": 4115846591,
+          "math_random": 0.9582952109631151,
+          "top_byte": 245,
+          "top_16": 62802
+        },
+        {
+          "step": 5,
+          "state0": 1132323059,
+          "state1": 2022919255,
+          "uint32": 3774041175,
+          "math_random": 0.8787124359514564,
+          "top_byte": 224,
+          "top_16": 57587
+        },
+        {
+          "step": 6,
+          "state0": 1038310887,
+          "state1": 722516034,
+          "uint32": 1575467074,
+          "math_random": 0.36681701289489865,
+          "top_byte": 93,
+          "top_16": 24039
+        },
+        {
+          "step": 7,
+          "state0": 433439013,
+          "state1": 1743838754,
+          "uint32": 3240484386,
+          "math_random": 0.7544840653426945,
+          "top_byte": 193,
+          "top_16": 49445
+        },
+        {
+          "step": 8,
+          "state0": 891499963,
+          "state1": 2102305762,
+          "uint32": 901489634,
+          "math_random": 0.20989441173151135,
+          "top_byte": 53,
+          "top_16": 13755
+        }
+      ]
+    },
+    {
+      "multipliers": [
+        18030,
+        36969
+      ],
+      "initial_states": [
+        4294967295,
+        4294967295
+      ],
+      "outputs": [
+        {
+          "step": 1,
+          "state0": 1181661585,
+          "state1": 2422828950,
+          "uint32": 3113316246,
+          "math_random": 0.7248754254542291,
+          "top_byte": 185,
+          "top_16": 47505
+        },
+        {
+          "step": 2,
+          "state0": 856533180,
+          "state1": 1056093423,
+          "uint32": 2830939375,
+          "math_random": 0.6591294368263334,
+          "top_byte": 168,
+          "top_16": 43196
+        },
+        {
+          "step": 3,
+          "state0": 778836949,
+          "state1": 1712383225,
+          "uint32": 467002617,
+          "math_random": 0.10873251990415156,
+          "top_byte": 27,
+          "top_16": 7125
+        },
+        {
+          "step": 4,
+          "state0": 128475634,
+          "state1": 2167038001,
+          "uint32": 1643274289,
+          "math_random": 0.382604610407725,
+          "top_byte": 97,
+          "top_16": 25074
+        },
+        {
+          "step": 5,
+          "state0": 452086180,
+          "state1": 910394691,
+          "uint32": 1235518787,
+          "math_random": 0.28766663442365825,
+          "top_byte": 73,
+          "top_16": 18852
+        },
+        {
+          "step": 6,
+          "state0": 339908458,
+          "state1": 1261211326,
+          "uint32": 2540342974,
+          "math_random": 0.5914696897380054,
+          "top_byte": 151,
+          "top_16": 38762
+        },
+        {
+          "step": 7,
+          "state0": 698884046,
+          "state1": 1350940442,
+          "uint32": 533640986,
+          "math_random": 0.12424797425046563,
+          "top_byte": 31,
+          "top_16": 8142
+        },
+        {
+          "step": 8,
+          "state0": 146810924,
+          "state1": 1732905519,
+          "uint32": 673974831,
+          "math_random": 0.156921993708238,
+          "top_byte": 40,
+          "top_16": 10284
+        }
+      ]
+    },
+    {
+      "multipliers": [
+        18030,
+        36969
+      ],
+      "initial_states": [
+        2147483648,
+        3735928559
+      ],
+      "outputs": [
+        {
+          "step": 1,
+          "state0": 32768,
+          "state1": 1807064756,
+          "uint32": 2147524276,
+          "math_random": 0.5000094594433904,
+          "top_byte": 128,
+          "top_16": 32768
+        },
+        {
+          "step": 2,
+          "state0": 590807040,
+          "state1": 1502004105,
+          "uint32": 50057,
+          "math_random": 1.1654803529381752e-05,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 3,
+          "state0": 9015,
+          "state1": 1850580151,
+          "uint32": 590847159,
+          "math_random": 0.13756732433103025,
+          "top_byte": 35,
+          "top_16": 9015
+        },
+        {
+          "step": 4,
+          "state0": 162540450,
+          "state1": 1483187548,
+          "uint32": 732079452,
+          "math_random": 0.17045053001493216,
+          "top_byte": 43,
+          "top_16": 11170
+        },
+        {
+          "step": 5,
+          "state0": 201397580,
+          "state1": 1564994339,
+          "uint32": 357362467,
+          "math_random": 0.08320493320934474,
+          "top_byte": 21,
+          "top_16": 5452
+        },
+        {
+          "step": 6,
+          "state0": 98302633,
+          "state1": 2225372834,
+          "uint32": 4205412002,
+          "math_random": 0.9791487832553685,
+          "top_byte": 250,
+          "top_16": 64169
+        },
+        {
+          "step": 7,
+          "state0": 1156968569,
+          "state1": 1198494998,
+          "uint32": 4034499862,
+          "math_random": 0.9393551996909082,
+          "top_byte": 240,
+          "top_16": 61561
+        },
+        {
+          "step": 8,
+          "state0": 1109962483,
+          "state1": 1410977141,
+          "uint32": 2935213429,
+          "math_random": 0.6834076319355518,
+          "top_byte": 174,
+          "top_16": 44787
+        }
+      ]
+    },
+    {
+      "multipliers": [
+        18030,
+        36969
+      ],
+      "initial_states": [
+        305419896,
+        2596069104
+      ],
+      "outputs": [
+        {
+          "step": 1,
+          "state0": 399116740,
+          "state1": 2109934380,
+          "uint32": 163842860,
+          "math_random": 0.03814763855189085,
+          "top_byte": 9,
+          "top_16": 2500
+        },
+        {
+          "step": 2,
+          "state0": 45081090,
+          "state1": 105763535,
+          "uint32": 3791835855,
+          "math_random": 0.8828555827494711,
+          "top_byte": 226,
+          "top_16": 57858
+        },
+        {
+          "step": 3,
+          "state0": 1043180427,
+          "state1": 1995107636,
+          "uint32": 2878074164,
+          "math_random": 0.6701038600876927,
+          "top_byte": 171,
+          "top_16": 43915
+        },
+        {
+          "step": 4,
+          "state0": 791803367,
+          "state1": 2244935998,
+          "uint32": 4125557054,
+          "math_random": 0.9605561043135822,
+          "top_byte": 245,
+          "top_16": 62951
+        },
+        {
+          "step": 5,
+          "state0": 1135018611,
+          "state1": 11790397,
+          "uint32": 41150525,
+          "math_random": 0.009581103222444654,
+          "top_byte": 2,
+          "top_16": 627
+        },
+        {
+          "step": 6,
+          "state0": 11322129,
+          "state1": 2197918136,
+          "uint32": 3272708536,
+          "math_random": 0.7619868349283934,
+          "top_byte": 195,
+          "top_16": 49937
+        },
+        {
+          "step": 7,
+          "state0": 900364282,
+          "state1": 1379125113,
+          "uint32": 2012923769,
+          "math_random": 0.4686703367624432,
+          "top_byte": 119,
+          "top_16": 30714
+        },
+        {
+          "step": 8,
+          "state0": 553787158,
+          "state1": 1887843028,
+          "uint32": 521548500,
+          "math_random": 0.12143247295171022,
+          "top_byte": 31,
+          "top_16": 7958
+        }
+      ]
+    },
+    {
+      "multipliers": [
+        18030,
+        36969
+      ],
+      "initial_states": [
+        0,
+        0
+      ],
+      "outputs": [
+        {
+          "step": 1,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 2,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 3,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 4,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 5,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 6,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 7,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        },
+        {
+          "step": 8,
+          "state0": 0,
+          "state1": 0,
+          "uint32": 0,
+          "math_random": 0,
+          "top_byte": 0,
+          "top_16": 0
+        }
+      ]
+    }
+  ]
+}

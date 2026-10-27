@@ -1,0 +1,11 @@
+{
+  "bip32_tests.cpp": {
+    "source_url": "https://github.com/bitcoin/bitcoin/blob/a773e1e33b349dc819b5a0edc1c7a4839dc73b48/src/test/bip32_tests.cpp",
+    "sha256": "2f14e2997da070dda3034d8e0255575dc1e9a46a2e03aba760bd7ee71a49e426",
+    "license": "MIT; original Bitcoin Core test data, Copyright (c) 2013-present The Bitcoin Core developers"
+  },
+  "BITCOIN_CORE_COPYING": {
+    "source_url": "https://raw.githubusercontent.com/bitcoin/bitcoin/a773e1e33b349dc819b5a0edc1c7a4839dc73b48/COPYING",
+    "sha256": "b028769f3852a9368ab10bd754ff01ebb741f84a2fa658c9aff82a631bc6ecfc"
+  }
+}
