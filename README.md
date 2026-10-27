@@ -26,6 +26,10 @@ A candidate private key still needs to match the expected public key or address.
 A matching internal state alone does not guarantee that it is the unique state
 that generated the observations.
 
+In a nutshell: these methods use weaknesses or disclosed information to shrink
+the candidate search space. Any remaining candidates need to be checked, but
+some methods recover the state or key directly without further brute force.
+
 ## Try an example
 
 Use Python 3.10 or later. Install the Python dependencies from `requirements.txt`.
